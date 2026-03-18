@@ -22,6 +22,18 @@ This project demonstrates an end-to-end object detection pipeline using YOLOv8, 
 - mAP@50: 0.995
 - mAP@50-95: 0.964
 
+## Limitations
+
+While the model achieved high accuracy on the validation dataset (mAP@50: 0.995), real-world performance during webcam testing varied.
+
+This highlights an important aspect of machine learning: models trained on limited or homogeneous datasets may not generalize well to unseen real-world scenarios.
+
+Improving performance would require:
+
+- more diverse training data
+- better bounding box annotations
+- additional classes and examples
+
 ## How It Works
 
 YOLO (You Only Look Once) is a real-time object detection model that predicts bounding boxes and class probabilities in a single forward pass through a neural network.
